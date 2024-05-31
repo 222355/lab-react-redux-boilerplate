@@ -1,7 +1,6 @@
 const initialState = {
   likes: 0,
 };
-
 const Reducer = (state = initialState, action) => {
   switch (action.type) {
     case "INCREMENT":
